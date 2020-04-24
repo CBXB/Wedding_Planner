@@ -1,0 +1,13 @@
+{
+    "sqltools.connections": [
+        {
+            "database": "wedding_planner_db",
+            "dialect": "MySQL",
+            "name": "Wedding Planner",
+            "password": "root",
+            "port": 3306,
+            "server": "localhost",
+            "username": "root"
+        }
+    ]
+}

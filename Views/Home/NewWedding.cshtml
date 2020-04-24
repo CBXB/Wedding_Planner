@@ -1,0 +1,45 @@
+@{
+    ViewData["Title"] = "Welcome";
+}
+
+@using Wedding_Planner.Models
+@model Wedding
+
+<div class="container">
+    <div class="row" style="margin-top: 30px;">
+        <div class="col-sm-8">
+            <h1>Plan your Wedding</h1>
+        </div>
+        <div class="col-sm-2">
+            <a href="/Welcome">Dashboard</a>
+        </div>
+        <div class="col-sm-2">
+            <a href="/Logout">Logout</a>
+        </div>
+    </div>
+    <div class="row">
+        <form asp-action="CreateWedding" asp-controller="Home" method="POST">
+            <div class="form-group">
+                <span asp-validation-for="WedderOne"></span><br>
+                <label asp-for="WedderOne"></label>
+                <input class="form-control" asp-for="WedderOne">
+            </div>
+            <div class="form-group">
+                <span asp-validation-for="WedderTwo"></span><br>
+                <label asp-for="WedderTwo"></label>
+                <input class="form-control" asp-for="WedderTwo">
+            </div>
+            <div class="form-group">
+                <span asp-validation-for="Date"></span><br>
+                <label asp-for="Date"></label>
+                <input class="form-control" asp-for="Date">
+            </div>
+            <div class="form-group">
+                <span asp-validation-for="Address"></span><br>
+                <label asp-for="Address"></label>
+                <input class="form-control" asp-for="Address">
+            </div>
+            <button type="submit" class="btn btn-success">Add Wedding</button>
+        </form>
+    </div>
+</div>

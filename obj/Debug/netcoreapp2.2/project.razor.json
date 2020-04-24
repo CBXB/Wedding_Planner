@@ -2986,8 +2986,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\crasg\\OneDrive\\04_Coding_Dojo\\C_Sharp\\03_Intro to ASP\\Wedding_Planner\\Views\\Home\\NewWedding.cshtml",
+      "TargetPath": "Views\\Home\\NewWedding.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\crasg\\OneDrive\\04_Coding_Dojo\\C_Sharp\\03_Intro to ASP\\Wedding_Planner\\Views\\Home\\Welcome.cshtml",
+      "TargetPath": "Views\\Home\\Welcome.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\crasg\\OneDrive\\04_Coding_Dojo\\C_Sharp\\03_Intro to ASP\\Wedding_Planner\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\crasg\\OneDrive\\04_Coding_Dojo\\C_Sharp\\03_Intro to ASP\\Wedding_Planner\\Views\\Home\\ViewWedding.cshtml",
+      "TargetPath": "Views\\Home\\ViewWedding.cshtml",
       "FileKind": "mvc"
     },
     {
